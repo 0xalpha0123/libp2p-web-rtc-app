@@ -1,0 +1,42 @@
+{
+  "name": "core-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "babel-watch -L src/index.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/polyfill": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "babel-watch": "^7.0.0",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "date-fns": "^2.15.0",
+    "express": "^4.17.1",
+    "it-pipe": "^1.1.0",
+    "libp2p": "^0.29.0",
+    "libp2p-bootstrap": "^0.12.1",
+    "libp2p-gossipsub": "^0.6.1",
+    "libp2p-kad-dht": "^0.20.1",
+    "libp2p-mdns": "^0.15.0",
+    "libp2p-mplex": "^0.10.0",
+    "libp2p-noise": "^2.0.0",
+    "libp2p-tcp": "^0.15.1",
+    "libp2p-webrtc-star": "^0.20.0",
+    "libp2p-websockets": "^0.14.0",
+    "multiaddr": "^8.0.0",
+    "peer-id": "^0.14.0",
+    "protons": "^2.0.0",
+    "streaming-iterables": "^5.0.2",
+    "uint8arrays": "^1.1.0",
+    "uuid": "^8.3.0",
+    "uuidv4": "^6.2.0",
+    "wrtc": "*"
+  }
+}

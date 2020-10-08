@@ -1,0 +1,19 @@
+version: "3"
+services:
+  # core-api:
+  #   build: "./core-api"
+  #   ports:
+  #     - 15555:15555
+  #   volumes:
+  #     - ./core-api:/opt/app
+
+  core-client:
+    container_name: core-client
+    build: "./core-client"
+    ports:
+      - 3000:3000
+    volumes:
+      - ./core-client:/opt/app
+      - "/app/node_modules"
+    environment:
+      - CHOKIDAR_USEPOLLING=true
