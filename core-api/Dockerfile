@@ -1,9 +1,15 @@
 FROM node:12
 
-COPY . /opt/app
-
 WORKDIR /opt/app
+
+ENV PATH /opt/app/node_modules/.bin:$PATH
+
+COPY package.json ./
+
+COPY yarn.lock ./
 
 RUN yarn
 
-CMD yarn watch
+COPY . ./
+
+CMD ["yarn", "watch"]
