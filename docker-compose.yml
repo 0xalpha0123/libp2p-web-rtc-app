@@ -1,11 +1,16 @@
 version: "3"
 services:
-  # core-api:
-  #   build: "./core-api"
-  #   ports:
-  #     - 15555:15555
-  #   volumes:
-  #     - ./core-api:/opt/app
+  core-api:
+    container_name: core-api
+    build: "./core-api"
+    ports:
+      - 15555:15555
+      - 63785:63785
+      - 63786:63786
+    volumes:
+      - ./core-api:/opt/app
+      - "/opt/app/node_modules"
+    command: ["yarn", "watch"]
 
   core-client:
     container_name: core-client
@@ -14,6 +19,8 @@ services:
       - 3000:3000
     volumes:
       - ./core-client:/opt/app
-      - "/app/node_modules"
+      - "/opt/app/node_modules"
     environment:
       - CHOKIDAR_USEPOLLING=true
+    command: ["yarn", "start"]
+    stdin_open: true
