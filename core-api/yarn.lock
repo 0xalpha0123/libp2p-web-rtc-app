@@ -4327,9 +4327,9 @@ path-is-absolute@^1.0.0:
   integrity sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-to-regexp@0.1.7:
   version "0.1.7"
@@ -5282,10 +5282,10 @@ wrappy@1:
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
-wrtc@^0.4.6:
-  version "0.4.6"
-  resolved "https://registry.yarnpkg.com/wrtc/-/wrtc-0.4.6.tgz#909ace2cffd34e11633d4e1c20527510a12e7b5b"
-  integrity sha512-4uD+oFoY2yuo3AV9fum3cXUXR6v8YQHZlqBrKkCRGjW1BvKrVHtLNH4UaNLBLiJu9DL89WqUWmbzsQ9RxMzANw==
+wrtc@*:
+  version "0.4.7"
+  resolved "https://registry.yarnpkg.com/wrtc/-/wrtc-0.4.7.tgz#c61530cd662713e50bffe64b7a78673ce070426c"
+  integrity sha512-P6Hn7VT4lfSH49HxLHcHhDq+aFf/jd9dPY7lDHeFhZ22N3858EKuwm2jmnlPzpsRGEPaoF6XwkcxY5SYnt4f/g==
   dependencies:
     node-pre-gyp "^0.13.0"
   optionalDependencies:
