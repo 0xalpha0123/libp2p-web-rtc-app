@@ -20,7 +20,7 @@
     "date-fns": "^2.15.0",
     "express": "^4.17.1",
     "it-pipe": "^1.1.0",
-    "libp2p": "^0.29.0",
+    "libp2p": "^0.38.0",
     "libp2p-bootstrap": "^0.12.1",
     "libp2p-gossipsub": "^0.6.1",
     "libp2p-kad-dht": "^0.20.1",
